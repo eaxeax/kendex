@@ -5,6 +5,7 @@
 ### Unreleased
 
 - With the compact renderers on, the system prompt lists `read`, `bash`, `grep`, `find` and `ls` under Available tools again and keeps Pi's guidelines for them, such as using `read` instead of `cat`. With `renderMutationTools` on, `edit` and `write` keep their entries and guidelines too.
+- A tool row for a tool the session does not register, such as `workflow_result` in a resumed session, shows one row with the tool's name once. Before, a restored row showed a second call row, and a tool with no path, query or similar argument showed its name twice in each row.
 
 ### 2.0.10
 
